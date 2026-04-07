@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gisa-api-client"
+version = "0.1.0"
+description = "Lightweight client for fetching company/legal information from [GISA (Gewerbeinformationssystem Austria)](https://gisa.gv.at)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  {name = "RealGalaxyCat", email = ""}
+]
+dependencies = [
+    "python-dotenv==1.2.2",
+    "requests==2.33.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/RealGalaxyCat/gisa-api-client"
+Repository = "https://github.com/RealGalaxyCat/gisa-api-client"
